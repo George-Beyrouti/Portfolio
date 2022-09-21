@@ -20,6 +20,12 @@ body {
   gap: 0.1rem;
 }
 
+.img1 { 
+  background-image: url(./img/web-development-banner-computer-with-window-computer-with-browser-window_80328-118.jpg);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
 
 .center {
   text-align: center;
@@ -297,15 +303,43 @@ body {
   justify-content: center;
   align-items: center;
   gap: 1rem;
-  width: 100%;
+  width: 90%;
   padding-bottom: 2rem;
 
 }
 .dis-none {
-   width: 30rem;
+   width: 100%;
   height: 20rem;
-  padding: 1rem 0;
+  display: none;
+  
 }
+
+
+.img2, .img3, .img4{
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 100%;
+  padding: 1rem 0;
+  
+}
+
+
+
+.img2 {
+  background-image: url(./img/Bennys\ Burger.png);
+  
+}
+
+.img3 {
+  background-image: url(./img/Tinder\ Dog.png);
+  
+}
+
+.img4 {
+  background-image: url(./img/Sweet\ Shop.png);
+}
+
 
 .projects {
   width: 100%;
@@ -560,6 +594,32 @@ button:hover {
   
       display: initial;
     }
+
+ .responsive-wrapper,
+ .responsive-wrapper iframe,
+ #Iframe-Master-CC-and-Rs,
+ .projects iframe {
+   display: none;
+ }
+
+
+ .dis-none {
+  display: inherit;
+  padding: 1rem 0;
+ }
+
+ .img2,
+ .img3,
+ .img4 {
+   background-position: center;
+   background-size: contain;
+   background-repeat: no-repeat;
+   width: 100%;
+   padding: 1rem 0;
+
+ }
+
+
 }
 
 
@@ -579,12 +639,7 @@ button:hover {
 
     }
 
-    .responsive-wrapper,
-    .responsive-wrapper iframe,
-    #Iframe-Master-CC-and-Rs {
-      display: none;
-    }
-
+   
 
 }
 
@@ -630,16 +685,8 @@ button:hover {
 }
 
 
-.projects iframe {
-  display: none;
-}
 
-  .responsive-wrapper, .responsive-wrapper iframe,
-    #Iframe-Master-CC-and-Rs
-  {
-    display: none;
-  }
-
+ 
 
 }
 
