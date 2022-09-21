@@ -375,11 +375,6 @@ body {
   font-weight: bold;
   margin: 0.5em;
   padding: 1em;
-  color: #2E86C1;
-  background: #e0e0e0;
-  box-shadow: 8px 8px 8px #898989,
-    -8px -8px 8px #ffffff;
-  border-radius: 22px;
   width: 9rem;
   height: 5rem;
   text-align: center;
@@ -470,11 +465,11 @@ button:hover {
   display: flex;
   justify-content: center;
   align-items: center;
+  transition: 300ms;
 }
 
 .home:hover {
   transform: scale(1.15);
-  transition: 300ms;
   border: 3px solid #21638f;
   color: #2E86C1;
   background: #D6DBDF;
