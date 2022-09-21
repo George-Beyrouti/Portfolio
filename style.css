@@ -474,7 +474,7 @@ button:hover {
 
 .home:hover {
   transform: scale(1.15);
-  transition: 1s;
+  transition: 300ms;
   border: 3px solid #21638f;
   color: #2E86C1;
   background: #D6DBDF;
