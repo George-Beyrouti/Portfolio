@@ -449,8 +449,8 @@ button:hover {
 .home {
   width: 4rem;
   height: 4rem;
-  border: 3px solid #21638f;
   color: #D6DBDF;
+  border: 3px solid #21638f;
   background:#2E86C1;
   text-align: center;
   line-height: 4rem;
@@ -469,12 +469,32 @@ button:hover {
   transition: 300ms;
 }
 
+
+
+@media (hover:hover){
 .home:hover {
-  transform: scale(1.15);
-  border: 3px solid #21638f;
-  color: #2E86C1;
-  background: #D6DBDF;
-  translate: -0.5rem  ;
+    transform: scale(1.15);
+    border: 3px solid #21638f;
+    color: #2E86C1;
+    background: #D6DBDF;
+    translate: -0.5rem;
+  }
+    button:hover {
+  
+      background: #2E86C1;
+      color: #e0e0e0;
+      box-shadow: 8px 8px 8px #ffffff,
+        -8px -8px 8px #898989;
+  
+  
+      transform: scale(1.1);
+  
+    }
+    .pagination a:hover:not(.active) {
+      background-color: #2E86C1;
+      color: #e0e0e0;
+      border: 1px solid #21638f;
+    }
 }
 
 
@@ -616,6 +636,56 @@ button:hover {
    padding: 1rem 0;
 
  }
+
+.home:hover {
+  transform: scale(1.15);
+  border: 3px solid #21638f;
+  color: #2E86C1;
+  background: #D6DBDF;
+  translate: -0.5rem;
+}
+
+button:hover {
+
+  background: #2E86C1;
+  color: #e0e0e0;
+  box-shadow: 8px 8px 8px #ffffff,
+    -8px -8px 8px #898989;
+
+
+  transform: scale(1.1);
+
+}
+
+.pagination a:hover:not(.active) {
+  background-color: #2E86C1;
+  color: #e0e0e0;
+  border: 1px solid #21638f;
+}
+@media (hover:none) {
+  .home:hover {
+      transform: scale(1);
+      color: #D6DBDF;
+      border: 3px solid #21638f;
+      background: #2E86C1;
+      translate: 0;
+    }
+
+    button:hover {
+    transform: scale(1);
+     color: #2E86C1;
+     background: #e0e0e0;
+     box-shadow: 8px 8px 8px #898989,
+    -8px -8px 8px #ffffff;
+    }
+
+}
+
+.pagination a:hover:not(.active) {
+
+    color: #1B2631;  
+    border: 1px solid #ddd;
+}
 
 
 }
